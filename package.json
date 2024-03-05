@@ -17,5 +17,8 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/hamzeaboudaher/Guess-the-number/issues"
+  },
+  "dependencies": {
+    "node": "^21.6.2"
   }
 }
