@@ -1,5 +1,5 @@
 {
-  "homepage":"https://github.com/hamzeaboudaher/Guess-the-number",
+  "homepage": "https://github.com/hamzeaboudaher/Guess-the-number",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
@@ -17,5 +17,4 @@
   "bugs": {
     "url": "https://github.com/hamzeaboudaher/Guess-the-number/issues"
   }
- 
 }
