@@ -1,66 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
 body {
-    font-family: "Arial", sans-serif;
-    background-color: #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #3f51b5, #ff4081);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    color: #fff;
 }
 
 .container {
     text-align: center;
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     padding: 40px;
     max-width: 500px;
     width: 90%;
 }
 
 h1 {
-    color: #333333;
-    font-size: 36px;
+    color: #333;
+    font-size: 3rem;
     margin-bottom: 20px;
 }
 
 p {
-    color: #555555;
-    font-size: 18px;
+    color: #555;
+    font-size: 1.5rem;
     margin-bottom: 20px;
 }
 
+label {
+    color: #ff4081; /* Pink color for label */
+    font-size: 1.25rem;
+}
+
 input[type="number"] {
-    padding: 15px;
+    padding: 1.5rem;
     margin-top: 20px;
-    border: 2px solid #dddddd;
+    border: 2px solid transparent;
     border-radius: 10px;
-    font-size: 18px;
-    width: calc(100% - 30px);
+    font-size: 1.5rem;
+    width: calc(100% - 3rem);
+    transition: border-color 0.3s ease;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+input[type="number"]:focus {
+    border-color: #ff4081;
 }
 
 button {
-    padding: 15px 30px;
+    padding: 1.5rem 3rem;
     margin-top: 20px;
-    background-color: #ff5f5f;
-    color: #ffffff;
+    background-color: #ff4081;
+    color: #fff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 1.5rem;
     transition: background-color 0.3s ease;
-    width: calc(100% - 30px);
+    width: calc(100% - 3rem);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 button:hover {
-    background-color: #ff3c3c;
+    background-color: #ff5177;
 }
 
 #message {
     margin-top: 30px;
     color: #4caf50;
-    font-size: 24px;
+    font-size: 2rem;
     font-weight: bold;
     animation: pulse 1s infinite alternate;
 }
@@ -70,6 +86,6 @@ button:hover {
         transform: scale(1);
     }
     to {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 }
