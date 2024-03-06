@@ -89,3 +89,21 @@ button:hover {
         transform: scale(1.05);
     }
 }
+
+#Gam-Gam {
+    padding: 10px 20px; 
+    background-color: #ff4081; 
+    color: #5017cb; 
+    font-size: 1rem; 
+    border-radius: 90px; 
+    cursor: pointer;
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width:80px
+}
+
+#Gam-Gam:hover {
+    transform: scale(1.1); 
+}
